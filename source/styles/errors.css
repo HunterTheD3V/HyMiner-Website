@@ -11,14 +11,16 @@ body {
 	margin-top: 80px;  */
 	
 	font-family: cairo;
-	background-color: #071f00 !important;
+	background-color: #040f00 !important;
+/*      cursor: url("/source/images/cursors/Normal Select.cur"), default;
+	url("/source/images/cursors/Working In Background.cur"), url("/source/images/cursors/Busy Star.cur"), url("/source/images/cursors/Working In Busy Waiting.cur"), url("/source/images/cursors/Busy.cur"), url("/source/images/cursors/Link Select.cur"), url("/source/images/cursors/Text Select.cur"), url("/source/images/cursors/Unavailable.cur"),                       */
 }
 
 main {
     margin: 50px;
 }
 nav {
-    background-color: #0d9b1e !important; 
+    background-color: #037711 !important; 
     width: 100%;
 }
 
@@ -43,12 +45,13 @@ nav {
 }
 h1 {
 	font-size: 70px !important;
+	color: red !important ;
 	text-align: center ;
-	color: red;
 }
 h6 {
 	font-size: 25px !important;
 	text-align: center ;
+	color: #ff8585 !important;
 }
 /*
 nav  {

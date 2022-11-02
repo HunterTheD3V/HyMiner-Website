@@ -14,10 +14,10 @@ http.createServer(function (req, res) {
   }
   if(!req.url.startsWith('/') || req.url.startsWith('/.config') || req.url.startsWith('/index.js') || req.url.startsWith('/_bhtml.js') || req.url.startsWith('/node_modules')) {
     res.statusCode = 404
-    res.write(getPage(`errors/404.html`) || `404`);
+    res.write(getPage(`404.html`) || `404`);
     res.end();
   }else{
-    res.write(getPage(req.url)||((res.statusCode = 404) && false)||getPage(`errors/404.html`)||`404`);
+    res.write(getPage(req.url)||((res.statusCode = 404) && false)||getPage(`404.html`)||`404`);
     res.end();
   }
 }).listen(8080);
